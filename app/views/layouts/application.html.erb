@@ -37,10 +37,25 @@
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="buttons">
-              <%= link_to 'Log In', new_user_session_path, class: "button is-primary" %>
-              <%= link_to 'Sign Up', new_user_registration_path, class: "button is-light" %>
-            </div>
+            <% if user_signed_in? %>
+              <div class="buttons">
+                <p class="control">
+                  <%= link_to current_user.username, edit_user_registration_path, class: "button is-primary" %>
+                </p>
+                <p>
+                  <%= button_to "Logout", destroy_user_session_path, method: :delete, class:"button is-light" %>
+                </p>
+              </div>
+            <% else %>
+              <div class="buttons">
+                <p class="control">
+                  <%= link_to 'Log In', new_user_session_path, class: "button is-primary" %>
+                </p>
+                <p>
+                  <%= link_to 'Sign Up', new_user_registration_path, class: "button is-light" %>
+                </p>
+              </div>
+            <% end %>
           </div>
         </div>
       </div>
