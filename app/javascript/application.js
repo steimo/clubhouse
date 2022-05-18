@@ -10,3 +10,15 @@ import "controllers";
     menu.classList.toggle("is-active");
   });
 })();
+
+let textArea = document.getElementById("textbox");
+let characterCounter = document.getElementById("char_count");
+const maxNumOfChars = 300;
+
+const countCharacters = () => {
+    let numOfEnteredChars = textArea.value.length;
+    let counter = maxNumOfChars - numOfEnteredChars;
+    characterCounter.textContent = counter + "/300";
+};
+
+textArea.addEventListener("input", countCharacters);
