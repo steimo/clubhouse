@@ -3,7 +3,7 @@
 
 <p align="center" >Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.</p>
 <div align="center">
-<img src="screenshots/clubhouse_unauthenticated.png" width="40%"></img> <img src="screenshots/clubhouse.png" width="40%"></img> 
+<img src="screenshots/clubhouse_unauthenticated.png" width="50%"></img> <img src="screenshots/clubhouse.png" width="50%"></img> 
 </div>
 
 ### Overview:
