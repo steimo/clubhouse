@@ -12,7 +12,7 @@
   <body>
     <nav class="navbar is-light" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <%= link_to root_path, class: "navbar-item" do %>
+        <%= link_to root_path, class: "navbar-item", data: { turbo: false} do %>
           <figure class="image is-64x64">
             <%= inline_svg_tag('blobby.svg', options={size: "64px"}) %>
           </figure>
