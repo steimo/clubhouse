@@ -12,7 +12,6 @@ Authorized users can make posts, edit and delete them. They are also able to see
 
 ### Gems used:
 
-- [Better Errors](https://rubygems.org/gems/better_errors) - for better errors.
 
 - [Bulma](https://github.com/joshuajansen/bulma-rails) - CSS framework.
 
