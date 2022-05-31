@@ -1,7 +1,6 @@
-<h1 align="center" style="margin-top: 0px;">Clubhouse</h1>
-</p>
+<h1 style="margin-top: 0px;">Clubhouse</h1>
 
-<p align="center" >Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.</p>
+<p>Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.</p>
 <div align="center">
 <img src="screenshots/clubhouse_unauthenticated.png" width="40%"></img> <img src="screenshots/clubhouse.png" width="40%"></img> 
 </div>
